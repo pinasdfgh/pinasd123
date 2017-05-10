@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HW170509</title>
+
+    </head>
+    
+    
+    <body>
+        
+        <p id="test" style="font-size:10em ;color:red">ppppp</p>
+        
+ 
+        <script type="text/javascript">
+        //兩個方法:1.直接輸出 2.藉由p元素輸出
+        var ans="";
+            for(var i=0;i<5;i++){
+                var j=0;
+                while(j<=i){
+                    document.write("*");
+                    ans+="*";
+                    j++;
+                    
+                }
+                document.write("<br>");
+                ans+="<br>";
+            }
+            //document.getElementById("demo").innerHTML(物件.方法.方法??)-->test.innerHTML
+            test.innerHTML=ans;
+            
+        </script>
+    </body>
+</html>
